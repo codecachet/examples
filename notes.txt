@@ -1,0 +1,13 @@
+NOTES
+
+I. Virtualenv
+
+python -m venv ve
+
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+cd C:\Users\dgell\projects\examples\ve\Scripts> 
+./Activate.ps1
+
+Also, via pallete: Python: select interepreter
+

@@ -18,3 +18,5 @@ II. git
 (ve) PS C:\Users\dgell\projects\examples> git config --global user.email "codecachet0@gmail.com"
 (ve) PS C:\Users\dgell\projects\examples> git status
 
+slight change
+

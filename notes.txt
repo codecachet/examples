@@ -11,3 +11,10 @@ cd C:\Users\dgell\projects\examples\ve\Scripts>
 
 Also, via pallete: Python: select interepreter
 
+II. git
+1. path
+2. init
+(ve) PS C:\Users\dgell\projects\examples> git config --global user.name "dg"
+(ve) PS C:\Users\dgell\projects\examples> git config --global user.email "codecachet0@gmail.com"
+(ve) PS C:\Users\dgell\projects\examples> git status
+

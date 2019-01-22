@@ -7,7 +7,7 @@ def shuffle(a):
     n = len(a)
     res = []
 
-    for i in range(0, n):
+    for i in range(n):
         print(f'i={i}')
         rint = randint(0, n - i - 1)
         print(f'rint={rint}')

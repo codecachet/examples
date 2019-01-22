@@ -1,23 +1,27 @@
 import random
 
+#random.seed(1)
+
 def get_random_char(chars):
     lenchars = len(chars)
     r = random.randint(0, lenchars - 1)
     return chars[r]
 
-def pw1():
-    newpass = ""
-    mychars = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890~!@#$%^&*()_+"
-	
-    for i in [0, 1, 2, 3, 4]:
+def pw1(nchars):
+        
+    mychars = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890'
+    
+    newpass = ''
+    for _ in range(nchars):
         c = get_random_char(mychars)
         newpass = newpass + c
 
     return newpass
 	
 def create_passwords():
-    for i in [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]:
-        pw = pw1()
-        print(i, " : ", "password = ", pw)
+    for i in range(10):
+        pw = pw1(25)
+        print(f'i={i}, password= {pw}')
 
-create_passwords()
+if __name__ == '__main__':
+    create_passwords()

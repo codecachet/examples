@@ -14,7 +14,9 @@ def remove_dups(a):
             dups.append(val)
     return res
 
+
 if __name__ == "__main__":
-    a = [3, 3, 3, 3, 3]
+    a = [3]*3
+    print(f'a={a}')
     b = remove_dups(a)
     print(f'b={b}')

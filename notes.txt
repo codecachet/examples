@@ -14,9 +14,11 @@ Also, via pallete: Python: select interepreter
 II. git
 1. path
 2. init
-(ve) PS C:\Users\dgell\projects\examples> git config --global user.name "dg"
-(ve) PS C:\Users\dgell\projects\examples> git config --global user.email "codecachet0@gmail.com"
-(ve) PS C:\Users\dgell\projects\examples> git status
+
+(ve) PS C:\Users\sam\projects\examples> git config --global user.name "sam"
+(ve) PS C:\Users\sam\projects\examples> git config --global user.email "sam@gmail.com"
+(ve) PS C:\Users\sam\projects\examples> git status
+
 
 slight change
 

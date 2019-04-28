@@ -1,0 +1,4 @@
+print('pack1 __init__ here')
+
+
+__all__ = ['mod1']
